@@ -1,0 +1,17 @@
+import LeftSideNews from "./LeftSideNews";
+
+const Phase1 = () => {
+  return (
+    <div className="grid grid-cols-14">
+      {/* left side */}
+      <div className="col-span-10">
+        <LeftSideNews />
+      </div>
+
+      {/* right side */}
+      <div className="col-span-4">right</div>
+    </div>
+  );
+};
+
+export default Phase1;
