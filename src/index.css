@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Cheltenham';
+  src: url('./assets/fonts/Cheltenham/Cheltenham.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@import "tailwindcss";
+
+@theme {
+    --font-cheltenham: "Cheltenham", serif;
+}
