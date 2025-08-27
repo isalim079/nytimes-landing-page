@@ -1,7 +1,20 @@
-const HeadingTitleComponents = ({border, title, subtitle, minutesRead, className}) => {
+const HeadingTitleComponents = ({
+  border,
+  title,
+  subtitle,
+  minutesRead,
+  className,
+  titleSize,
+}) => {
   return (
-    <div className={`${border ? "border-b-2 border-b-gray-200 pb-3" : ""} ${className}`}>
-      <h3 className="text-xl font-semibold leading-[28px]">{title}</h3>
+    <div
+      className={`${border ? "border-b-2 border-b-gray-200 pb-3" : ""} ${className}`}
+    >
+      <h3
+        className={`${titleSize ? titleSize : "text-xl"} font-semibold leading-[28px]`}
+      >
+        {title}
+      </h3>
       <p className="mt-3 text-gray-500 leading-tight">{subtitle}</p>
       <span className="text-gray-500 uppercase font-sans text-[10px] font-semibold">
         {minutesRead}

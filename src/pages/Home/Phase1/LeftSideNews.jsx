@@ -1,5 +1,8 @@
+import Divider from "../../../components/ui/Divider";
 import Container1 from "./containers/Container1";
 import Container10 from "./containers/Container10";
+import Container11 from "./containers/Container11";
+import Container12 from "./containers/Container12";
 import Container2 from "./containers/Container2";
 import Container3 from "./containers/Container3";
 import Container4 from "./containers/Container4";
@@ -13,16 +16,10 @@ const LeftSideNews = () => {
   return (
     <div>
       <Container1 />
-      {/* divider */}
-      <div className="px-4">
-        <div className="h-[1px] bg-black"></div>
-      </div>
+      <Divider />
       <Container2 />
       <Container3 />
-      {/* divider */}
-      <div className="px-4">
-        <div className="h-[1px] bg-black"></div>
-      </div>
+      <Divider />
       <Container4 />
       {/* mini section */}
       <div className="py-5 text-center border-y-1 border-y-black">
@@ -31,33 +28,21 @@ const LeftSideNews = () => {
           information confidentially ›
         </p>
       </div>
-
       <Container5 />
-      {/* divider */}
-      <div className="px-4">
-        <div className="h-[1px] bg-black"></div>
-      </div>
+      <Divider />
       <Container6 />
-      {/* divider */}
-      <div className="px-4">
-        <div className="h-[1px] bg-black"></div>
-      </div>
+      <Divider />
       <Container7 />
-      {/* divider */}
-      <div className="px-4">
-        <div className="h-[1px] bg-black"></div>
-      </div>
+      <Divider />
       <Container8 />
-      {/* divider */}
-      <div className="px-4">
-        <div className="h-[1px] bg-black"></div>
-      </div>
+      <Divider />
       <Container9 />
-      {/* divider */}
-      <div className="px-4">
-        <div className="h-[1px] bg-black"></div>
-      </div>
+      <Divider />
       <Container10 />
+      <Divider />
+      <Container11 />
+      <Divider />
+      <Container12 />
     </div>
   );
 };
