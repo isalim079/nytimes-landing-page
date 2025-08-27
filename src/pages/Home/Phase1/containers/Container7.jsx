@@ -1,0 +1,31 @@
+import HeadingTitleComponents from "../../../../components/ui/homeComponents/HeadingTitleComponents";
+import ImageComponents from "../../../../components/ui/homeComponents/ImageComponents";
+
+const Container7 = () => {
+    return (
+        <div className="grid grid-cols-12 p-4 gap-4 mt-2">
+      {/* left side data */}
+      <div className="col-span-4">
+        <HeadingTitleComponents
+          title={
+            "SpaceX’s Giant Mars Rocket Completes Nearly Flawless Test Flight"
+          }
+          subtitle={
+            "After setbacks during the last three launches of Starship, Elon Musk’s rocket splashed down in the Indian Ocean on Tuesday night."
+          }
+          minutesRead={"5 min read"}
+        />
+      </div>
+
+      {/* right side data */}
+      <div className="col-span-8 pl-4">
+        <ImageComponents
+          src="https://static01.nyt.com/images/2025/09/10/multimedia/10int-uk-reform-deportations-1-hfql/10int-uk-reform-deportations-1-hfql-threeByTwoMediumAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+          photoCredits={"Joanna Chan/Associated Press"}
+        />
+      </div>
+    </div>
+    );
+};
+
+export default Container7;
