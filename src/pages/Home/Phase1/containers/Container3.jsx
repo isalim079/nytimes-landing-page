@@ -39,7 +39,7 @@ const Container3 = () => {
             />
 
             <SubHeadingTitleComponents
-              border={true}
+            
               className={"mt-3"}
               title={
                 "Lebanon Is Near a Disarmament Plan for Hezbollah, U.S. Envoy Says"

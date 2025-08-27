@@ -41,7 +41,7 @@ const Container2 = () => {
 
         {/* bottom cards */}
         <div className="px-4">
-          <div className="py-4 border-y-2 border-t-gray-200 flex gap-3">
+          <div className="py-4 border-y-1 border-t-gray-200 flex gap-3">
             <SubHeadingTitleComponents
               title={
                 "Cook to Sue Over Her Firing, Asserting Trump Abused Power"
