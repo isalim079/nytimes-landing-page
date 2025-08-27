@@ -1,17 +1,14 @@
-
-import './App.css'
-import Home from './pages/Home/Home'
-import Navbar from './pages/shared/Navbar/Navbar'
+import { Outlet } from "react-router";
+import "./App.css";
+import Navbar from "./pages/shared/Navbar/Navbar";
 
 function App() {
-
-
   return (
-   <div className='font-cheltenham'>
-    <Navbar />
-    <Home />
-   </div>
-  )
+    <div className="font-cheltenham">
+      <Navbar />
+      <Outlet />
+    </div>
+  );
 }
 
-export default App
+export default App;
