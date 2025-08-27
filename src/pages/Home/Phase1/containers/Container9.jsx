@@ -1,17 +1,15 @@
 import HeadingTitleComponents from "../../../../components/ui/homeComponents/HeadingTitleComponents";
 import ImageComponents from "../../../../components/ui/homeComponents/ImageComponents";
 
-const Container7 = () => {
+const Container9 = () => {
   return (
     <div className="grid grid-cols-12 p-4 gap-4 mt-2">
       {/* left side data */}
       <div className="col-span-4">
         <HeadingTitleComponents
-          title={
-            "SpaceX’s Giant Mars Rocket Completes Nearly Flawless Test Flight"
-          }
+          title={"A Teen Was Suicidal. ChatGPT Was the Friend He Confided In."}
           subtitle={
-            "After setbacks during the last three launches of Starship, Elon Musk’s rocket splashed down in the Indian Ocean on Tuesday night."
+            "More people are turning to chatbots for emotional support. At first, a 16-year-old used ChatGPT for schoolwork, but then he started planning to end his life."
           }
           minutesRead={"5 min read"}
         />
@@ -20,12 +18,12 @@ const Container7 = () => {
       {/* right side data */}
       <div className="col-span-8 pl-4">
         <ImageComponents
-          src="https://static01.nyt.com/images/2025/09/10/multimedia/10int-uk-reform-deportations-1-hfql/10int-uk-reform-deportations-1-hfql-threeByTwoMediumAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
-          photoCredits={"Joanna Chan/Associated Press"}
+          src="https://static01.nyt.com/images/2025/08/26/multimedia/26biz-chatbot-teen-thpl/26biz-chatbot-teen-thpl-threeByTwoMediumAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+          photoCredits={"Mark Abramson for The New York Times"}
         />
       </div>
     </div>
   );
 };
 
-export default Container7;
+export default Container9;

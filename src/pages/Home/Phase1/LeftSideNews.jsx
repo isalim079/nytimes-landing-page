@@ -1,4 +1,5 @@
 import Container1 from "./containers/Container1";
+import Container10 from "./containers/Container10";
 import Container2 from "./containers/Container2";
 import Container3 from "./containers/Container3";
 import Container4 from "./containers/Container4";
@@ -6,6 +7,7 @@ import Container5 from "./containers/Container5";
 import Container6 from "./containers/Container6";
 import Container7 from "./containers/Container7";
 import Container8 from "./containers/Container8";
+import Container9 from "./containers/Container9";
 
 const LeftSideNews = () => {
   return (
@@ -46,6 +48,16 @@ const LeftSideNews = () => {
         <div className="h-[1px] bg-black"></div>
       </div>
       <Container8 />
+      {/* divider */}
+      <div className="px-4">
+        <div className="h-[1px] bg-black"></div>
+      </div>
+      <Container9 />
+      {/* divider */}
+      <div className="px-4">
+        <div className="h-[1px] bg-black"></div>
+      </div>
+      <Container10 />
     </div>
   );
 };

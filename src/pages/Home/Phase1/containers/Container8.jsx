@@ -18,9 +18,7 @@ const Container8 = () => {
         <div className="col-span-4">
           <h6 className="font-sans text-xs font-semibold mb-2">ANALYSIS</h6>
           <HeadingTitleComponents
-            title={
-              "Trump Plays Reality TV Host at Marathon Cabinet Meeting"
-            }
+            title={"Trump Plays Reality TV Host at Marathon Cabinet Meeting"}
             subtitle={
               "President Trump hosted a televised meeting at the White House for hours as his cabinet members offered praise. It was a glimpse of how he runs his presidency."
             }
@@ -50,17 +48,24 @@ const Container8 = () => {
 
       {/* bottom cards */}
       <div className="px-4">
-        <div className="py-4 border-y-1 border-t-gray-200 flex gap-3">
+        <div className="py-4 border-y-1 border-t-gray-200 flex gap-4">
           <SubHeadingTitleComponents
-            title={"Cook to Sue Over Her Firing, Asserting Trump Abused Power"}
-            minutesRead={"5 min read"}
+            title={"FEMA Suspends Staff Who Signed a Letter Criticizing Trump"}
+            minutesRead={"2 min read"}
           />
           <SubHeadingTitleComponents
-            className={"border-l-2 border-l-gray-200 pl-3"}
+            className={"border-l-2 border-l-gray-200 pl-5"}
             title={
-              "Markets Brush Off Fed Threats. But Concerns Linger on Wall Street."
+              "Justice Dept. Broadens Inquiry Into Key Players in Russia Investigation"
             }
-            minutesRead={"3 min read"}
+            minutesRead={"4 min read"}
+          />
+          <SubHeadingTitleComponents
+            className={"border-l-2 border-l-gray-200 pl-5"}
+            title={
+              "Deploy Troops to Chicago? Trump Says He Can ‘Do Anything I Want to Do.’"
+            }
+            minutesRead={"2 min read"}
           />
         </div>
       </div>
