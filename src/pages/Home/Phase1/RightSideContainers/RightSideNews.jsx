@@ -1,12 +1,16 @@
+import Divider2 from "../../../../components/ui/Divider2";
 import Container1 from "./Containers/Container1";
 import Container2 from "./Containers/Container2";
+import Container3 from "./Containers/Container3";
 
 const RightSideNews = () => {
   return (
     <div className="py-4">
-      <div className="border-l-2 border-l-gray-200 px-4">
+      <div className=" px-4">
         <Container1 />
         <Container2 />
+        <Divider2 />
+        <Container3 />
       </div>
     </div>
   );

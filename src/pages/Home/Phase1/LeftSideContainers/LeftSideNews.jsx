@@ -1,4 +1,3 @@
-
 import Divider from "../../../../components/ui/Divider";
 import Container1 from "./containers/Container1";
 import Container10 from "./containers/Container10";
@@ -16,37 +15,39 @@ import Container9 from "./containers/Container9";
 
 const LeftSideNews = () => {
   return (
-    <div>
-      <Container1 />
-      <Divider />
-      <Container2 />
-      <Container3 />
-      <Divider />
-      <Container4 />
-      {/* mini section */}
-      <div className="py-5 text-center border-y-1 border-y-black">
-        <p>
-          <b>Got a Tip?</b> The Times offers several ways to send important
-          information confidentially ›
-        </p>
+    <div className="py-4">
+      <div className="border-r-2 border-r-gray-200">
+        <Container1 />
+        <Divider />
+        <Container2 />
+        <Container3 />
+        <Divider />
+        <Container4 />
+        {/* mini section */}
+        <div className="py-5 text-center border-y-1 border-y-black">
+          <p>
+            <b>Got a Tip?</b> The Times offers several ways to send important
+            information confidentially ›
+          </p>
+        </div>
+        <Container5 />
+        <Divider />
+        <Container6 />
+        <Divider />
+        <Container7 />
+        <Divider />
+        <Container8 />
+        <Divider />
+        <Container9 />
+        <Divider />
+        <Container10 />
+        <Divider />
+        <Container11 />
+        <Divider />
+        <Container12 />
+        <Divider />
+        <Container13 />
       </div>
-      <Container5 />
-      <Divider />
-      <Container6 />
-      <Divider />
-      <Container7 />
-      <Divider />
-      <Container8 />
-      <Divider />
-      <Container9 />
-      <Divider />
-      <Container10 />
-      <Divider />
-      <Container11 />
-      <Divider />
-      <Container12 />
-      <Divider />
-      <Container13 />
     </div>
   );
 };

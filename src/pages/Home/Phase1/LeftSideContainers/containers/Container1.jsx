@@ -5,7 +5,7 @@ import SubHeadingTitleComponents from "../../../../../components/ui/homeComponen
 
 const Container1 = () => {
   return (
-    <div className="grid grid-cols-12 p-4 gap-4">
+    <div className="grid grid-cols-12 px-4 gap-4 pb-4">
       {/* left side data */}
       <div className="col-span-4">
         <h6 className="font-sans text-xs font-semibold mb-2">ANALYSIS</h6>

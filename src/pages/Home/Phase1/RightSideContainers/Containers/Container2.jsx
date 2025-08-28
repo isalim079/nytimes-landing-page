@@ -66,7 +66,7 @@ const Container2 = () => {
   };
 
   return (
-    <div className="mt-3">
+    <div className="my-3">
       <Slider ref={sliderRef} {...settings}>
         {slides.map((slide, idx) => (
           <div
