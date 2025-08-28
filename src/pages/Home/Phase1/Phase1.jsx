@@ -1,4 +1,5 @@
 import LeftSideNews from "./LeftSideContainers/LeftSideNews";
+import RightSideNews from "./RightSideContainers/RightSideNews";
 
 const Phase1 = () => {
   return (
@@ -9,7 +10,9 @@ const Phase1 = () => {
       </div>
 
       {/* right side */}
-      <div className="col-span-4">right</div>
+      <div className="col-span-4">
+        <RightSideNews />
+      </div>
     </div>
   );
 };

@@ -5,12 +5,27 @@ const ImageComponents = ({
   subtitle,
   minutesRead,
   photoCredits,
+  imageHeight,
+  titleFontSize,
+  titleFontWeight,
+  titleLeading,
 }) => {
   return (
     <div className={`${containerClass}`}>
-      <img src={`${src}`} alt="" />
+      <img className={`${imageHeight}`} src={`${src}`} alt="" />
+      {photoCredits ? (
+        <span className="text-gray-500 font-sans text-[10px] font-semibold flex justify-end mt-1">
+          {photoCredits}
+        </span>
+      ) : (
+        ""
+      )}
       {title ? (
-        <h3 className="text-lg font-semibold leading-[26px] mt-4">{title}</h3>
+        <h3
+          className={`${titleFontSize ? titleFontSize : "text-lg"} ${titleFontWeight ? titleFontWeight : "font-semibold"} ${titleLeading ? titleLeading : "leading-[26px]"} mt-4`}
+        >
+          {title}
+        </h3>
       ) : (
         ""
       )}
@@ -22,13 +37,6 @@ const ImageComponents = ({
       {minutesRead ? (
         <span className="text-gray-500 uppercase font-sans text-[10px] font-semibold">
           {minutesRead}
-        </span>
-      ) : (
-        ""
-      )}
-      {photoCredits ? (
-        <span className="text-gray-500 font-sans text-[10px] font-semibold flex justify-end mt-1">
-          {photoCredits}
         </span>
       ) : (
         ""
