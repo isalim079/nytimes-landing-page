@@ -11,6 +11,7 @@ const RightSideNews = () => {
         <Container2 />
         <Divider2 />
         <Container3 />
+        <Divider2 />
       </div>
     </div>
   );

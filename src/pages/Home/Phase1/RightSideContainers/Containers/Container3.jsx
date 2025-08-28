@@ -4,7 +4,7 @@ import SubHeadingTitleComponents from "../../../../../components/ui/homeComponen
 
 const Container3 = () => {
   return (
-    <div>
+    <div className="pb-3">
       {/* section 1 */}
       <div className="mt-3 border-b-2 border-b-gray-200 pb-3">
         <h6 className="font-sans text-xs font-semibold mb-2">Opinion</h6>
