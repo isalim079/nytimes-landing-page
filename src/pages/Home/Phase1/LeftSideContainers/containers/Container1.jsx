@@ -1,6 +1,7 @@
-import HeadingTitleComponents from "../../../../components/ui/homeComponents/HeadingTitleComponents";
-import ImageComponents from "../../../../components/ui/homeComponents/ImageComponents";
-import SubHeadingTitleComponents from "../../../../components/ui/homeComponents/SubHeadingTitleComponents";
+
+import HeadingTitleComponents from "../../../../../components/ui/homeComponents/HeadingTitleComponents";
+import ImageComponents from "../../../../../components/ui/homeComponents/ImageComponents";
+import SubHeadingTitleComponents from "../../../../../components/ui/homeComponents/SubHeadingTitleComponents";
 
 const Container1 = () => {
   return (

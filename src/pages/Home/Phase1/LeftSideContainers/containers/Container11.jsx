@@ -1,4 +1,4 @@
-import HeadingTitleComponents from "../../../../components/ui/homeComponents/HeadingTitleComponents";
+import HeadingTitleComponents from "../../../../../components/ui/homeComponents/HeadingTitleComponents";
 
 const Container11 = () => {
   return (

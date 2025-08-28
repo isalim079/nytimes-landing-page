@@ -1,17 +1,17 @@
-import HeadingTitleComponents from "../../../../components/ui/homeComponents/HeadingTitleComponents";
-import ImageComponents from "../../../../components/ui/homeComponents/ImageComponents";
+import HeadingTitleComponents from "../../../../../components/ui/homeComponents/HeadingTitleComponents";
+import ImageComponents from "../../../../../components/ui/homeComponents/ImageComponents";
 
-const Container7 = () => {
+const Container4 = () => {
   return (
     <div className="grid grid-cols-12 p-4 gap-4 mt-2">
       {/* left side data */}
       <div className="col-span-4">
         <HeadingTitleComponents
           title={
-            "SpaceX’s Giant Mars Rocket Completes Nearly Flawless Test Flight"
+            "Nigel Farage Promises Mass Deportations if Elected U.K. Prime Minister"
           }
           subtitle={
-            "After setbacks during the last three launches of Starship, Elon Musk’s rocket splashed down in the Indian Ocean on Tuesday night."
+            "The plans illustrated how the leader of the Reform U.K. Party is driving a hardening of the debate around immigration."
           }
           minutesRead={"5 min read"}
         />
@@ -28,4 +28,4 @@ const Container7 = () => {
   );
 };
 
-export default Container7;
+export default Container4;

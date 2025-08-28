@@ -1,4 +1,4 @@
-import LeftSideNews from "./LeftSideNews";
+import LeftSideNews from "./LeftSideContainers/LeftSideNews";
 
 const Phase1 = () => {
   return (

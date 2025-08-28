@@ -1,5 +1,5 @@
-import HeadingTitleComponents from "../../../../components/ui/homeComponents/HeadingTitleComponents";
-import ImageComponents from "../../../../components/ui/homeComponents/ImageComponents";
+import HeadingTitleComponents from "../../../../../components/ui/homeComponents/HeadingTitleComponents";
+import ImageComponents from "../../../../../components/ui/homeComponents/ImageComponents";
 
 const Container12 = () => {
   return (

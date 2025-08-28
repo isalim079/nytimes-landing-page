@@ -1,4 +1,5 @@
-import Divider from "../../../components/ui/Divider";
+
+import Divider from "../../../../components/ui/Divider";
 import Container1 from "./containers/Container1";
 import Container10 from "./containers/Container10";
 import Container11 from "./containers/Container11";
