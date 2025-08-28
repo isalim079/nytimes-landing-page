@@ -3,6 +3,7 @@ import Container1 from "./containers/Container1";
 import Container10 from "./containers/Container10";
 import Container11 from "./containers/Container11";
 import Container12 from "./containers/Container12";
+import Container13 from "./containers/Container13";
 import Container2 from "./containers/Container2";
 import Container3 from "./containers/Container3";
 import Container4 from "./containers/Container4";
@@ -43,6 +44,8 @@ const LeftSideNews = () => {
       <Container11 />
       <Divider />
       <Container12 />
+      <Divider />
+      <Container13 />
     </div>
   );
 };
