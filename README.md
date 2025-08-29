@@ -1,12 +1,59 @@
-# React + Vite
+# NYTimes Homepage Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is an assignment to closely clone the homepage of [The New York Times](https://www.nytimes.com/).
 
-Currently, two official plugins are available:
+## Assignment Details
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+You are required to clone the homepage of the following website as closely as possible:
 
-## Expanding the ESLint configuration
+**Reference URL:** https://www.nytimes.com/
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Your cloned version includes:
+- Header
+- Footer
+- Widgets
+- All visible sections/components on the homepage
+
+## Tech Stack
+- React 19
+- Vite
+- Tailwind CSS v4.1 (with @tailwindcss/vite)
+- ESLint
+- Lucide React (icons)
+- React Slick (carousel)
+
+## Getting Started
+
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+2. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+3. **Build for production:**
+   ```bash
+   npm run build
+   ```
+
+## Folder Structure
+- `src/` — Main source code
+  - `assets/` — Images, fonts
+  - `pages/` — Page components (Home, shared, etc.)
+  - `components/` — Reusable UI components
+
+## Features
+- Responsive layout
+- Custom Cheltenham font
+- Interactive navigation and carousels
+- Dynamic date and year
+- Section dividers and borders
+
+## Notes
+- This is a front-end assignment project and does not include backend or API integration.
+- All data and images are static or mocked for demonstration purposes.
+
+---
+
+Feel free to explore and modify the project as needed for your assignment!

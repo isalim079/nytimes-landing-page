@@ -4,6 +4,7 @@ import Phase2 from "./Phase2/Phase2";
 import Phase3 from "./Phase3/Phase3";
 import Phase4 from "./Phase4/Phase4";
 import Phase5 from "./Phase5/Phase5";
+import Phase6 from "./Phase6/Phase6";
 
 const Home = () => {
   return (
@@ -18,6 +19,9 @@ const Home = () => {
         <Phase4 />
         <Divider2 />
         <Phase5 />
+        <div className="h-[1px] bg-black"></div>
+        <div className="h-[1px] bg-black mt-[2px]"></div>
+        <Phase6 />
       </div>
     </div>
   );
