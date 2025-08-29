@@ -14,6 +14,9 @@ Your cloned version includes:
 - Widgets
 - All visible sections/components on the homepage
 
+## Live Demo
+- [nytimes-client.vercel.app](https://nytimes-client.vercel.app/)
+
 ## Tech Stack
 - React 19
 - Vite

@@ -2,7 +2,7 @@ import { newsData } from "./Phase6Data";
 
 const Phase6 = () => {
   return (
-    <div className="mt-5">
+    <div className="my-5">
       <h6 className="uppercase font-bold">News</h6>
 
       {/* news */}
