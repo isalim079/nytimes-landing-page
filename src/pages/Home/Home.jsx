@@ -3,6 +3,7 @@ import Phase1 from "./Phase1/Phase1";
 import Phase2 from "./Phase2/Phase2";
 import Phase3 from "./Phase3/Phase3";
 import Phase4 from "./Phase4/Phase4";
+import Phase5 from "./Phase5/Phase5";
 
 const Home = () => {
   return (
@@ -15,6 +16,8 @@ const Home = () => {
         <Phase3 />
         <Divider2 />
         <Phase4 />
+        <Divider2 />
+        <Phase5 />
       </div>
     </div>
   );
