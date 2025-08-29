@@ -5,7 +5,7 @@ import SubHeadingTitleComponents from "../../../../../components/ui/homeComponen
 const Container1 = () => {
   return (
     <div className="">
-      <h6 className="font-sans text-xs font-bold mb-2 px-4">More News</h6>
+
       <div className="grid grid-cols-12 px-4 gap-4 mt-2">
         {/* left side data */}
         <div className="col-span-4">
@@ -42,7 +42,7 @@ const Container1 = () => {
 
       {/* bottom cards */}
       <div className="px-4 mt-4">
-        <div className="py-4 border-y-1 border-t-gray-200 flex gap-3">
+        <div className="py-4 border-t-1 border-t-gray-200 flex gap-3">
           <HeadingTitleComponents
             title={
               "Jokey Names for Detention Centers Face Criticism for Insensitivity"
