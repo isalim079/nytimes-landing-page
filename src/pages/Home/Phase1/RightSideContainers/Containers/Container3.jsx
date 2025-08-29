@@ -1,4 +1,3 @@
-import Divider2 from "../../../../../components/ui/Divider2";
 import ImageComponents from "../../../../../components/ui/homeComponents/ImageComponents";
 import SubHeadingTitleComponents from "../../../../../components/ui/homeComponents/SubHeadingTitleComponents";
 

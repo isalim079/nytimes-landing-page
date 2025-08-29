@@ -2,6 +2,7 @@ import Divider2 from "../../../../components/ui/Divider2";
 import Container1 from "./Containers/Container1";
 import Container2 from "./Containers/Container2";
 import Container3 from "./Containers/Container3";
+import Container4 from "./Containers/Container4";
 
 const RightSideNews = () => {
   return (
@@ -12,6 +13,7 @@ const RightSideNews = () => {
         <Divider2 />
         <Container3 />
         <Divider2 />
+        <Container4 />
       </div>
     </div>
   );
