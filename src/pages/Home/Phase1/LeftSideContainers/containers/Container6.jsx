@@ -6,18 +6,18 @@ const Container6 = () => {
   return (
     <div className=" mt-3">
       {/* top section */}
-      <div className="flex flex-row gap-7 font-sans text-sm px-4">
-        <span className="font-semibold">Russia-Ukraine War</span>
-        <span>Photos</span>
-        <span>Peace Talks</span>
-        <span>State of the War</span>
-        <span>Changed by Trauma</span>
+      <div className="flex flex-row overflow-x-auto gap-7 font-sans text-sm px-4">
+        <span className="font-semibold text-nowrap">Russia-Ukraine War</span>
+        <span className="text-nowrap">Photos</span>
+        <span className="text-nowrap">Peace Talks</span>
+        <span className="text-nowrap">State of the War</span>
+        <span className="text-nowrap">Changed by Trauma</span>
       </div>
       {/* container section */}
       <div className="mt-2">
         <div className="grid grid-cols-12 p-4 gap-4">
           {/* left side data */}
-          <div className="col-span-4">
+          <div className="lg:col-span-4 col-span-12">
             <HeadingTitleComponents
               border={true}
               title={
@@ -40,7 +40,7 @@ const Container6 = () => {
           </div>
 
           {/* right side data */}
-          <div className="col-span-8 pl-4">
+          <div className="lg:col-span-8 col-span-12 pl-4">
             <ImageComponents
               src="https://static01.nyt.com/images/2025/08/26/multimedia/26int-ukraine-russia-energy-01-tjkw/26int-ukraine-russia-energy-01-tjkw-threeByTwoMediumAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
               photoCredits={'Agence France-Presse, via Telegram'}

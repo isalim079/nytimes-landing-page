@@ -6,7 +6,7 @@ import { User } from "lucide-react";
 const Footer = () => {
   return (
     <div>
-      <div className="max-w-[1200px] mx-auto">
+      <div className="max-w-[1200px] mx-auto lg:block hidden">
         <div>
           <div className="h-[2px] bg-gray-300"></div>
           <div className="h-[1px] bg-gray-300 mt-[1px]"></div>

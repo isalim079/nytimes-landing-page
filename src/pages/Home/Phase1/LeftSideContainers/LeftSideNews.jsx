@@ -27,7 +27,7 @@ const LeftSideNews = () => {
         <div className="py-5 text-center border-y-1 border-y-black">
           <p>
             <b>Got a Tip?</b> The Times offers several ways to send important
-            information confidentially ›
+            information confidentially
           </p>
         </div>
         <Container5 />

@@ -8,7 +8,7 @@ const Container1 = () => {
 
       <div className="grid grid-cols-12 px-4 gap-4 mt-2">
         {/* left side data */}
-        <div className="col-span-4">
+        <div className="lg:col-span-4 col-span-12">
           <HeadingTitleComponents
             title={
               "Rainer Weiss, Who Gave a Nod to Einstein and the Big Bang, Dies at 92"
@@ -30,7 +30,7 @@ const Container1 = () => {
           />
         </div>
         {/* right side */}
-        <div className="col-span-8 pl-4">
+        <div className="lg:col-span-8 col-span-12 pl-4">
           <ImageComponents
             src={
               "https://static01.nyt.com/images/2025/08/26/multimedia/26Weiss--jgvt/26Weiss--jgvt-threeByTwoMediumAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"

@@ -4,7 +4,7 @@ const Container11 = () => {
   return (
     <div className="grid grid-cols-12 p-4 gap-4 mt-2 items-center">
       {/* left section */}
-      <div className="col-span-4">
+      <div className="lg:col-span-4 col-span-12">
         <h6 className="font-sans text-xs font-semibold mb-2">ANALYSIS</h6>
 
         <HeadingTitleComponents
@@ -16,15 +16,15 @@ const Container11 = () => {
         />
       </div>
       {/* right section */}
-      <div className="col-span-8 ">
-        <div className="flex w-fit gap-2">
+      <div className="lg:col-span-8 col-span-12 ">
+        <div className="flex w-full justify-end lg:w-fit gap-2">
           <img
-            className="w-[268px] h-full object-cover"
+            className="lg:w-[268px] w-[160px] h-full object-cover"
             src="https://static01.nyt.com/images/2025/08/22/multimedia/ST-POWER-GAYS-02-hwft/ST-POWER-GAYS-02-hwft-verticalTwoByThree735.jpg?quality=75&auto=webp"
             alt=""
           />
           <img
-            className="w-[268px] h-full object-cover"
+            className="lg:w-[268px] w-[160px] h-full object-cover"
             src="https://static01.nyt.com/images/2025/08/22/multimedia/ST-POWER-GAYS-swap-qwlc/ST-POWER-GAYS-swap-qwlc-verticalTwoByThree735-v3.jpg?quality=75&auto=webp"
             alt=""
           />

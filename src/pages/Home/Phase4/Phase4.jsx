@@ -6,12 +6,12 @@ const Phase4 = () => {
   return (
      <div className="grid grid-cols-14 mb-3">
       {/* left side */}
-      <div className="col-span-10">
+      <div className="lg:col-span-10 col-span-14">
         <LeftSideNews />
       </div>
 
       {/* right side */}
-      <div className="col-span-4">
+      <div className="lg:col-span-4 col-span-14">
         <RightSideNews />
       </div>
     </div>
