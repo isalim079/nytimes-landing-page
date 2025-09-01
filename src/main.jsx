@@ -4,6 +4,7 @@ import "./index.css";
 import App from "./App.jsx";
 import { BrowserRouter, Route, Routes } from "react-router";
 import Home from "./pages/Home/Home.jsx";
+import NewsDetails from "./pages/NewsDetails/NewsDetails.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -11,6 +12,7 @@ createRoot(document.getElementById("root")).render(
       <Routes>
         <Route path="/" element={<App />}>
           <Route path="" element={<Home />} />
+          <Route path="/news-details" element={<NewsDetails />} />
         </Route>
       </Routes>
     </BrowserRouter>
