@@ -1,3 +1,4 @@
+import { Bookmark, Forward, Gift } from "lucide-react";
 import LeftSideNews from "./LeftSideNews";
 import RightSideNews from "./RightSideNews";
 
@@ -25,11 +26,27 @@ const Phase1 = () => {
           </span>
         </div>
       </div>
-      <div className="">
-        <div>
+      {/* icons */}
+      <div className="flex items-center gap-5 max-w-[640px] mx-auto mt-10">
+        <p className="flex items-center gap-2 border p-2 rounded-full border-gray-300 text-sm">
+          {" "}
+          <Gift strokeWidth={1} /> Share full article
+        </p>
+        <p className="flex items-center border p-2 rounded-full border-gray-300">
+          {" "}
+          <Forward />
+        </p>
+        <p className="flex items-center border p-2 rounded-full border-gray-300">
+          {" "}
+          <Bookmark />
+        </p>
+      </div>
+      <div className="max-w-[1200px] mx-auto flex lg:flex-row flex-col mb-10">
+        <div className="w-[284px]"></div>
+        <div className="max-w-[600px] w-full">
           <LeftSideNews />
         </div>
-        <div>
+        <div className="">
           <RightSideNews />
         </div>
       </div>
