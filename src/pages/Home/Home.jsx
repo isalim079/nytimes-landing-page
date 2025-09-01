@@ -9,7 +9,7 @@ import Phase6 from "./Phase6/Phase6";
 const Home = () => {
   return (
     <div>
-      <div className="max-w-[1200px] mx-auto">
+      <div className="max-w-[1200px] mx-auto px-4 lg:px-0">
         <Phase1 />
         <Divider2 />
         <Phase2 />

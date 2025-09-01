@@ -5,7 +5,7 @@ import SubHeadingTitleComponents from "../../../../../components/ui/homeComponen
 const Container2 = () => {
   return (
     <div className="">
-      <div className="grid grid-cols-12 p-4 gap-4 mt-2">
+      <div className="grid grid-cols-12 lg:p-4 gap-4 lg:mt-2 mt-4">
         {/* left side data */}
         <div className="lg:col-span-4 col-span-12">
           <HeadingTitleComponents
@@ -29,7 +29,7 @@ const Container2 = () => {
           />
         </div>
         {/* right side */}
-        <div className="lg:col-span-8 col-span-12 pl-4">
+        <div className="lg:col-span-8 col-span-12 lg:pl-4">
           <ImageComponents
             src={
               "https://static01.nyt.com/images/2025/08/26/multimedia/26biz-france-econ1-bcmj/26biz-france-econ1-bcmj-threeByTwoMediumAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
@@ -40,7 +40,7 @@ const Container2 = () => {
       </div>
 
       {/* bottom cards */}
-      <div className="px-4">
+      <div className="lg:px-4 mt-4 lg:mt-0">
         <div className="py-4 border-y-1 border-t-gray-200 flex gap-3">
           <SubHeadingTitleComponents
             title={"Cook to Sue Over Her Firing, Asserting Trump Abused Power"}

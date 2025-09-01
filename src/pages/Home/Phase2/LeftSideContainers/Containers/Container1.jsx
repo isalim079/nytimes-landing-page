@@ -5,8 +5,7 @@ import SubHeadingTitleComponents from "../../../../../components/ui/homeComponen
 const Container1 = () => {
   return (
     <div className="">
-
-      <div className="grid grid-cols-12 px-4 gap-4 mt-2">
+      <div className="grid grid-cols-12 lg:px-4 gap-4 mt-2">
         {/* left side data */}
         <div className="lg:col-span-4 col-span-12">
           <HeadingTitleComponents
@@ -30,7 +29,7 @@ const Container1 = () => {
           />
         </div>
         {/* right side */}
-        <div className="lg:col-span-8 col-span-12 pl-4">
+        <div className="lg:col-span-8 col-span-12 lg:pl-4">
           <ImageComponents
             src={
               "https://static01.nyt.com/images/2025/08/26/multimedia/26Weiss--jgvt/26Weiss--jgvt-threeByTwoMediumAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
@@ -41,8 +40,8 @@ const Container1 = () => {
       </div>
 
       {/* bottom cards */}
-      <div className="px-4 mt-4">
-        <div className="py-4 border-t-1 border-t-gray-200 flex gap-3">
+      <div className="lg:px-4 mt-4">
+        <div className="py-4 border-t-1 border-t-gray-200 flex flex-col lg:flex-row gap-3">
           <HeadingTitleComponents
             title={
               "Jokey Names for Detention Centers Face Criticism for Insensitivity"
@@ -53,7 +52,7 @@ const Container1 = () => {
             }
           />
           <HeadingTitleComponents
-            className={"border-l-2 border-l-gray-200 pl-3"}
+            className={"lg:border-l-2 lg:border-l-gray-200 lg:pl-3"}
             title={
               "Cracker Barrel Drops New Logo Design After Conservative Backlash"
             }

@@ -4,7 +4,7 @@ import SubHeadingTitleComponents from "../../../../../components/ui/homeComponen
 
 const Container10 = () => {
   return (
-    <div className="grid grid-cols-12 p-4 gap-4 mt-2">
+    <div className="grid grid-cols-12 lg:p-4 gap-4 mt-2 mb-4 lg:mb-0">
       {/* left side data */}
       <div className="lg:col-span-4 col-span-12">
         <HeadingTitleComponents
@@ -34,7 +34,7 @@ const Container10 = () => {
       </div>
 
       {/* right side data */}
-      <div className="lg:col-span-8 col-span-12 pl-4">
+      <div className="lg:col-span-8 col-span-12 lg:pl-4">
         <ImageComponents
           src="https://static01.nyt.com/images/2025/08/26/multimedia/26ST-TAYLOR-SWIFT-ENGAGEMENT-RING-bhgc/26ST-TAYLOR-SWIFT-ENGAGEMENT-RING-bhgc-threeByTwoMediumAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
           photoCredits={"Taylor Swift and Travis Kelce"}

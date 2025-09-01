@@ -7,7 +7,7 @@ import Container4 from "./Containers/Container4";
 const RightSideNews = () => {
   return (
     <div className="py-4">
-      <div className=" px-4">
+      <div className="lg:px-4">
         <Container1 />
         <Container2 />
         <Divider2 />

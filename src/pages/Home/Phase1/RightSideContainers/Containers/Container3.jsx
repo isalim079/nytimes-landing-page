@@ -75,8 +75,8 @@ const Container3 = () => {
       </div>
 
       {/* section 5 */}
-      <div className="mt-3 flex">
-        <div className="pr-3">
+      <div className="mt-3 flex flex-col lg:flex-row">
+        <div className="lg:pr-3 ">
           <SubHeadingTitleComponents
             titleWeight={"font-normal"}
             titleLeading={"leading-[22px]"}
@@ -98,8 +98,11 @@ const Container3 = () => {
             }
             minutesRead={"8 min read"}
           />
+          <div className="my-2 block lg:hidden">
+            <div className="h-[1.5px] bg-gray-200 w-full"></div>
+          </div>
         </div>
-        <div className="border-l-2 border-l-gray-200 pl-3">
+        <div className="lg:border-l-2 lg:border-l-gray-200 lg:pl-3 mt-2 lg:mt-0">
           <SubHeadingTitleComponents
             titleWeight={"font-normal"}
             titleSize={"text-base"}

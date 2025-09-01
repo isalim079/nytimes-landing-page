@@ -6,7 +6,7 @@ const Container13 = () => {
     return (
          <div className=" mt-3">
       {/* top section */}
-      <div className="flex flex-row overflow-x-auto gap-7 font-sans text-sm px-4">
+      <div className="flex flex-row overflow-x-auto gap-7 font-sans text-sm lg:px-4 py-3 lg:py-0">
         <span className="font-semibold text-nowrap">U.S. Open</span>
         <span className="text-nowrap">Sinner Interview</span>
         <span className="text-nowrap">The Etiquette Debate</span>
@@ -15,7 +15,7 @@ const Container13 = () => {
       </div>
       {/* container section */}
       <div className="mt-2">
-        <div className="grid grid-cols-12 p-4 gap-4">
+        <div className="grid grid-cols-12 lg:p-4 gap-4">
           {/* left side data */}
           <div className="lg:col-span-4 col-span-12">
             <HeadingTitleComponents
@@ -39,7 +39,7 @@ const Container13 = () => {
           </div>
 
           {/* right side data */}
-          <div className="lg:col-span-8 col-span-12 pl-4">
+          <div className="lg:col-span-8 col-span-12 lg:pl-4">
             <ImageComponents
               src="https://static01.nyt.com/images/2025/08/26/multimedia/26hp-gauff-pmth/26hp-gauff-pmth-threeByTwoMediumAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
               photoCredits={'Vera Nieuwenhuis/Associated Press'}

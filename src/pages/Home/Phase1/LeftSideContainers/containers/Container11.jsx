@@ -2,7 +2,7 @@ import HeadingTitleComponents from "../../../../../components/ui/homeComponents/
 
 const Container11 = () => {
   return (
-    <div className="grid grid-cols-12 p-4 gap-4 mt-2 items-center">
+    <div className="grid grid-cols-12 lg:p-4 gap-4 mt-2 items-center mb-4 lg:mb-0">
       {/* left section */}
       <div className="lg:col-span-4 col-span-12">
         <h6 className="font-sans text-xs font-semibold mb-2">ANALYSIS</h6>

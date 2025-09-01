@@ -71,7 +71,7 @@ const Container2 = () => {
         {slides.map((slide, idx) => (
           <div
             key={idx}
-            className={`px-4${idx % slidesToShow !== slidesToShow - 1 ? " border-r border-gray-300" : ""}`}
+            className={`px-4 ${idx % slidesToShow !== slidesToShow - 1 ? " border-r border-gray-300" : ""}`}
           >
             <ImageComponents
               src={slide.src}

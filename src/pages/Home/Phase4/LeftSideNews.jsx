@@ -6,9 +6,9 @@ const LeftSideNews = () => {
       <h6 className="font-sans text-xs font-bold mb-2">
         Culture and Lifestyle
       </h6>
-      <div className="grid grid-cols-12 gap-4 mt-2 items-center border-r border-r-gray-300 pr-4">
+      <div className="grid grid-cols-12 gap-4 mt-2 items-center lg:border-r lg:border-r-gray-300 lg:pr-4">
         {/* left section */}
-        <div className="col-span-4">
+        <div className="lg:col-span-4 col-span-12">
           <HeadingTitleComponents
             title={"At the Frick, a Young Painter Spars With an Old Master"}
             subtitle={
@@ -19,7 +19,7 @@ const LeftSideNews = () => {
           />
         </div>
         {/* right section */}
-        <div className="col-span-8 ">
+        <div className="lg:col-span-8 col-span-12">
           <div className="flex w-fit gap-2">
             <img
               className=""

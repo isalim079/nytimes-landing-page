@@ -5,7 +5,7 @@ import SubHeadingTitleComponents from "../../../../../components/ui/homeComponen
 
 const Container1 = () => {
   return (
-    <div className="grid grid-cols-12 px-4 gap-4 pb-4">
+    <div className="grid grid-cols-12 lg:px-4 gap-4 pb-4">
       {/* left side data */}
       <div className="lg:col-span-4 col-span-12">
         <h6 className="font-sans text-xs font-semibold mb-2">ANALYSIS</h6>
@@ -39,7 +39,7 @@ const Container1 = () => {
       </div>
 
       {/* right side data */}
-      <div className="lg:col-span-8 col-span-12 border-l-2 border-l-gray-200 pl-4">
+      <div className="lg:col-span-8 col-span-12 lg:border-l-2 lg:border-l-gray-200 lg:pl-4">
         <ImageComponents
           src="https://static01.nyt.com/images/2025/08/27/multimedia/27Biz-India-US-01-btlh/27Biz-India-US-01-btlh-threeByTwoMediumAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
           title={

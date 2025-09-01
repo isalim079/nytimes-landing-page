@@ -1,4 +1,5 @@
-import Divider from "../../../../components/ui/Divider";
+
+import Divider2 from "../../../../components/ui/Divider2";
 import Container1 from "./containers/Container1";
 import Container10 from "./containers/Container10";
 import Container11 from "./containers/Container11";
@@ -16,12 +17,12 @@ import Container9 from "./containers/Container9";
 const LeftSideNews = () => {
   return (
     <div className="py-4">
-      <div className="border-r-2 border-r-gray-200">
+      <div className="lg:border-r-2 lg:border-r-gray-200">
         <Container1 />
-        <Divider />
+        <Divider2 />
         <Container2 />
         <Container3 />
-        <Divider />
+        <Divider2 />
         <Container4 />
         {/* mini section */}
         <div className="py-5 text-center border-y-1 border-y-black">
@@ -31,21 +32,21 @@ const LeftSideNews = () => {
           </p>
         </div>
         <Container5 />
-        <Divider />
+        <Divider2 />
         <Container6 />
-        <Divider />
+        <Divider2 />
         <Container7 />
-        <Divider />
+        <Divider2 />
         <Container8 />
-        <Divider />
+        <Divider2 />
         <Container9 />
-        <Divider />
+        <Divider2 />
         <Container10 />
-        <Divider />
+        <Divider2 />
         <Container11 />
-        <Divider />
+        <Divider2 />
         <Container12 />
-        <Divider />
+        <Divider2 />
         <Container13 />
       </div>
     </div>

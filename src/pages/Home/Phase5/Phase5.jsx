@@ -13,8 +13,8 @@ const Phase5 = () => {
           <div
             key={item.id}
             className={`flex justify-between ${
-              [1, 2].includes(item.id) ? "pr-2 border-r border-r-gray-300" : ""
-            } ${[2, 3].includes(item.id) ? "pl-4" : ""}`}
+              [1, 2].includes(item.id) ? "lg:pr-2 lg:border-r lg:border-r-gray-300" : ""
+            } ${[2, 3].includes(item.id) ? "lg:pl-4" : ""}`}
           >
             <div>
               <h5>{item.title}</h5>
@@ -36,8 +36,8 @@ const Phase5 = () => {
           <div
             key={item.id}
             className={`flex justify-between ${
-              [4, 5].includes(item.id) ? "pr-2 border-r border-r-gray-300" : ""
-            } ${[5, 6].includes(item.id) ? "pl-4" : ""}`}
+              [4, 5].includes(item.id) ? "lg:pr-2 lg:border-r lg:border-r-gray-300" : ""
+            } ${[5, 6].includes(item.id) ? "lg:pl-4" : ""}`}
           >
             <div>
               <h5>{item.title}</h5>

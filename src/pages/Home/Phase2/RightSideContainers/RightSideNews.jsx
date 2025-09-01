@@ -2,7 +2,7 @@ import HeadingTitleComponents from "../../../../components/ui/homeComponents/Hea
 
 const RightSideNews = () => {
   return (
-    <div className="pt-9 pl-4">
+    <div className="lg:pt-9 lg:pl-4">
       <HeadingTitleComponents
         border={true}
         title={
@@ -20,6 +20,7 @@ const RightSideNews = () => {
         minutesRead={"3 min read"}
         titleSize={"text-base"}
         leadingTitle={"leading-[22px]"}
+        className={'mt-3 lg:mt-0'}
       />
       <HeadingTitleComponents
         border={true}
@@ -27,6 +28,7 @@ const RightSideNews = () => {
         minutesRead={"4 min read"}
         titleSize={"text-base"}
         leadingTitle={"leading-[22px]"}
+        className={'mt-3 lg:mt-0'}
       />
       <HeadingTitleComponents
         border={true}
@@ -36,6 +38,7 @@ const RightSideNews = () => {
         minutesRead={"2 min read"}
         titleSize={"text-base"}
         leadingTitle={"leading-[22px]"}
+        className={'mt-3 lg:mt-0'}
       />
       <HeadingTitleComponents
         border={true}
@@ -45,6 +48,7 @@ const RightSideNews = () => {
         minutesRead={"3 min read"}
         titleSize={"text-base"}
         leadingTitle={"leading-[22px]"}
+        className={'mt-3 lg:mt-0'}
       />
       <HeadingTitleComponents
         border={true}
@@ -52,6 +56,7 @@ const RightSideNews = () => {
         minutesRead={"3 min read"}
         titleSize={"text-base"}
         leadingTitle={"leading-[22px]"}
+        className={'mt-3 lg:mt-0'}
       />
     </div>
   );
