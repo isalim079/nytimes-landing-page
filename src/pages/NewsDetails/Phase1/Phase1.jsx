@@ -41,12 +41,12 @@ const Phase1 = () => {
           <Bookmark />
         </p>
       </div>
-      <div className="max-w-[1200px] mx-auto flex lg:flex-row flex-col mb-10">
+      <div className="max-w-[1200px] mx-auto flex lg:flex-row lg:items-center flex-col mb-10">
         <div className="w-[284px]"></div>
         <div className="max-w-[600px] w-full">
           <LeftSideNews />
         </div>
-        <div className="">
+        <div className="w-[25%]">
           <RightSideNews />
         </div>
       </div>
