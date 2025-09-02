@@ -3,7 +3,7 @@ import Phase2 from "./Phase2/Phase2";
 
 const NewsDetails = () => {
   return (
-    <div>
+    <div className="mb-5">
       <Phase1 />
       <Phase2 />
     </div>
