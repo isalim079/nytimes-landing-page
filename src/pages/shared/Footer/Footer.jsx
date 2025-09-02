@@ -66,7 +66,7 @@ const Footer = () => {
           </div>
 
           {/* column 6 */}
-          <div className="flex flex-col text-sm space-y-1 border-l border-l-gray-300 pl-4">
+          <div className="lg:flex flex-col text-sm space-y-1 border-l border-l-gray-300 pl-4 hidden">
             <span className="font-bold uppercase text-xs mb-2">opinion</span>
             <span className="font-bold text-base flex items-center gap-2">
               <svg width={"10px"} viewBox="0 0 10 13">
