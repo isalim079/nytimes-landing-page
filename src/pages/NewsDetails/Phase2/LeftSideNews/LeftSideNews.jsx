@@ -17,9 +17,9 @@ const LeftSideNews = () => {
           Group Subscriptions Page.
         </p>
         {/* cards */}
-        <div className="grid lg:grid-cols-3 my-6">
+        <div className="grid lg:grid-cols-3 my-6 overflow-x-auto space-y-4 lg:space-y-0">
           {/* card 1 */}
-          <div className="flex items-center pr-3">
+          <div className="flex items-center gap-4 lg:gap-0 lg:pr-3">
             <p>A.I. Travel Tools Are Everywhere. Are They Any Good?</p>
             <img
               className="w-[85px] h-[85px]"
@@ -28,7 +28,7 @@ const LeftSideNews = () => {
             />
           </div>
           {/* card 2 */}
-          <div className="flex items-center pl-3 border-l border-l-gray-300 pr-3">
+          <div className="flex items-center gap-4 lg:gap-0 lg:pl-3 lg:border-l lg:border-l-gray-300 lg:pr-3">
             <p>
               The Hobbyist Restorer Who Rocked the Art World With an A.I.
               Innovation
@@ -40,7 +40,7 @@ const LeftSideNews = () => {
             />
           </div>
           {/* card 3 */}
-          <div className="flex items-center pl-3 border-l border-l-gray-300">
+          <div className="flex items-center gap-4 lg:gap-0 lg:pl-3 lg:border-l lg:border-l-gray-300">
             <p>21 Ways People Are Using A.I. at Work</p>
             <img
               className="w-[85px] h-[85px]"
@@ -60,7 +60,7 @@ const LeftSideNews = () => {
         {/* cards container */}
         <div className="flex flex-wrap gap-4">
           {/* card 1 */}
-          <div className="max-w-[270px]">
+          <div className="lg:max-w-[270px]">
             <img
               className="w-full object-cover"
               src="https://static01.nyt.com/images/2025/08/27/technology/personaltech/27BIZ-TECHTIP-TOP/27BIZ-TECHTIP-TOP-square640.jpg?quality=75&auto=webp&disable=upscale"
@@ -71,18 +71,19 @@ const LeftSideNews = () => {
             </p>
           </div>
           {/* card 2 */}
-          <div className="max-w-[270px]">
+          <div className="lg:max-w-[270px]">
             <img
               className="w-full object-cover"
               src="https://static01.nyt.com/images/2025/07/31/business/00techfix/00techfix-square640-v2.jpg?quality=75&auto=webp&disable=upscale"
               alt=""
             />
             <p className="text-lg">
-              Why A.I. Should Make Parents Rethink Posting Photos of Their Children Online
+              Why A.I. Should Make Parents Rethink Posting Photos of Their
+              Children Online
             </p>
           </div>
           {/* card 3 */}
-          <div className="max-w-[270px]">
+          <div className="lg:max-w-[270px]">
             <img
               className="w-full object-cover"
               src="https://static01.nyt.com/images/2025/08/27/world/27int-skorea-smartphone-ban/27int-skorea-smartphone-ban-square640.jpg?quality=75&auto=webp&disable=upscale"
@@ -93,26 +94,22 @@ const LeftSideNews = () => {
             </p>
           </div>
           {/* card 4 */}
-          <div className="max-w-[270px]">
+          <div className="lg:max-w-[270px]">
             <img
               className="w-full object-cover"
               src="https://static01.nyt.com/images/2025/08/04/well/04WELL-PHONE-BREAKUP-lede-copy/04WELL-PHONE-BREAKUP-lede-copy-square640-v2.jpg?quality=75&auto=webp&disable=upscale"
               alt=""
             />
-            <p className="text-lg">
-              15 Ways to Break Free of Your Phone
-            </p>
+            <p className="text-lg">15 Ways to Break Free of Your Phone</p>
           </div>
           {/* card 5 */}
-          <div className="max-w-[270px]">
+          <div className="lg:max-w-[270px]">
             <img
               className="w-full object-cover"
               src="https://static01.nyt.com/images/2025/07/30/technology/personaltech/30BIZ-TECHTIP-TOP/30BIZ-TECHTIP-TOP-square640.jpg?quality=75&auto=webp&disable=upscale"
               alt=""
             />
-            <p className="text-lg">
-              How to Put Your Phone in Vacation Mode
-            </p>
+            <p className="text-lg">How to Put Your Phone in Vacation Mode</p>
           </div>
         </div>
       </div>

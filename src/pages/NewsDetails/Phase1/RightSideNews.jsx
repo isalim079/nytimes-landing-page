@@ -1,7 +1,7 @@
 const RightSideNews = () => {
     return (
        <div className="flex justify-end w-full">
-         <div className="max-w-[240px]">
+         <div className="lg:max-w-[240px]">
             <p className="font-sans font-bold">Editor's Picks</p>
             <div className="h-[1px] bg-gray-300 my-4"></div>
             <div className="space-y-4">
