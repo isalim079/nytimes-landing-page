@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { ChevronDown, Menu, UserRound, X } from "lucide-react";
 import logo from "../../../../assets/img/NewYorkTimes.svg";
 import { navLinkData } from "../NavbarData";
@@ -6,6 +6,17 @@ import { navLinkData } from "../NavbarData";
 const NavbarMobile = () => {
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [openAccordion, setOpenAccordion] = useState(null);
+
+  // Close drawer on large screens
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth >= 1024) {
+        setDrawerOpen(false);
+      }
+    };
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   const handleAccordion = (id) => {
     setOpenAccordion(openAccordion === id ? null : id);
@@ -39,8 +50,16 @@ const NavbarMobile = () => {
             <X className="w-6 h-6" />
           </button>
           <div className="mt-5 flex items-center gap-3">
-            <input className="border border-gray-500 px-3 py-1 w-full" placeholder="SEARCH" type="search" name="navSearch" id="navSearch" />
-            <button className="bg-[#326891] text-white px-3 py-[5px]">Go</button>
+            <input
+              className="border border-gray-500 px-3 py-1 w-full"
+              placeholder="SEARCH"
+              type="search"
+              name="navSearch"
+              id="navSearch"
+            />
+            <button className="bg-[#326891] text-white px-3 py-[5px]">
+              Go
+            </button>
           </div>
         </div>
         <div className="px-4 py-2">
